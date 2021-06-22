@@ -1,0 +1,12 @@
+spring:
+ datasource:
+  password: password
+  url: jdbc:mysql://${DB_HOST}:3306/empik
+  username: user
+  hikari:
+   initialization-fail-timeout: 0
+ jpa:
+  generate-ddl: true
+github:
+ api:
+  users: https://api.github.com/users
